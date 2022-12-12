@@ -37,7 +37,7 @@ int max_mas(int a[], int n){
     printf("%d\n", max_1);
     printf("%d\n", max_2);
     printf("%d\n", max_3);
-    return (max_3*max_1*max_2)-(i_1+i_3+i_2);
+    return (max_3*max_1*max_2)-((i_1+i_3+i_2)%n);
     
 }
 
